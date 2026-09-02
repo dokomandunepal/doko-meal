@@ -8,10 +8,10 @@ export type DeliveryTier = {
 
 // Charged against the estimated road distance, not the straight line
 export const DELIVERY_TIERS: DeliveryTier[] = [
-  { maxKm: 3, fee: 100, freeAbove: 500 },
-  { maxKm: 7, fee: 150, freeAbove: 1500 },
-  { maxKm: 10, fee: 200, freeAbove: 2000 },
-  { maxKm: 15, fee: 250, freeAbove: 2000 },
+  { maxKm: 3, fee: 100, freeAbove: 10000 },
+  { maxKm: 7, fee: 150, freeAbove: 10000 },
+  { maxKm: 10, fee: 200, freeAbove: 10000 },
+  { maxKm: 15, fee: 250, freeAbove: 10000 },
 ]
 
 export const MAX_DELIVERY_KM = DELIVERY_TIERS[DELIVERY_TIERS.length - 1].maxKm

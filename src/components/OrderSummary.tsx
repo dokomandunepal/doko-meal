@@ -73,10 +73,7 @@ Total: Rs.${total}
 Name: ${fullName}
 Phone: ${phone}
 Address: ${address}
-Landmark: ${landmark}${
-      distance
-        ? `\nDistance: ~${formatDistance(distance)} by road (estimated)`
-        : ""
+Landmark: ${landmark}
     }${mapLink ? `\nMap: ${mapLink}` : ""}${
       notes.trim() ? `\nNotes: ${notes.trim()}` : ""
     }
@@ -138,13 +135,13 @@ Please confirm my order. Thank you!`
           </span>
         </div>
 
-        {distance !== null && (
+        {/* {distance !== null && (
           <div className="flex justify-between text-sm">
             <span className="text-gray-500">Distance</span>
 
             <span className="font-semibold">~{formatDistance(distance)}</span>
           </div>
-        )}
+        )} */}
 
         {quote.status === "unknown" && (
           <p className="text-xs text-gray-400">
@@ -152,12 +149,12 @@ Please confirm my order. Thank you!`
           </p>
         )}
 
-        {quote.status === "ok" && !quote.isFree && (
+        {/* {quote.status === "ok" && !quote.isFree && (
           <p className="text-xs text-gray-400">
             Free delivery at this distance on orders above Rs.
             {quote.freeAbove}
           </p>
-        )}
+        )} */}
       </div>
 
       {/* Total */}

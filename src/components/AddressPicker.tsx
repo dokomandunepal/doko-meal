@@ -226,7 +226,17 @@ const AddressPicker = () => {
           </ul>
         )}
       </div>
-
+      <FieldDescription>
+        {isLocating
+          ? "Finding your location…"
+          : isSearching
+            ? "Searching…"
+            : isResolving
+              ? "Looking up that spot…"
+              : searchFailed
+                ? "Search is unavailable right now — drag the pin to your location instead."
+                : "Search for your area, then drag the pin or tap the map to fine-tune the exact spot."}
+      </FieldDescription>
       <div className="relative h-56 overflow-hidden rounded-xl border border-gray-200">
         <Map
           ref={mapRef}
@@ -277,22 +287,10 @@ const AddressPicker = () => {
           </p>
         ) : (
           <p className="text-sm font-semibold text-gray-600">
-            🛵 ~{formatDistance(roadDistance)} from our kitchen{" "}
-            <span className="font-normal text-gray-400">(estimated)</span>
+            {/* 🛵 ~{formatDistance(roadDistance)} from our kitchen{" "}
+            <span className="font-normal text-gray-400">(estimated)</span> */}
           </p>
         ))}
-
-      <FieldDescription>
-        {isLocating
-          ? "Finding your location…"
-          : isSearching
-            ? "Searching…"
-            : isResolving
-              ? "Looking up that spot…"
-              : searchFailed
-                ? "Search is unavailable right now — drag the pin to your location instead."
-                : "Search for your area, then drag the pin or tap the map to fine-tune the exact spot."}
-      </FieldDescription>
 
       <Textarea
         id="address"
