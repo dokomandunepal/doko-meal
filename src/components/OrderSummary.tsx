@@ -1,10 +1,15 @@
 import type { CartItem } from "@/hooks/useCart"
 import type { DeliveryDetailValues } from "@/hooks/useDeliveryDetail"
 import { getDeliveryQuote, MAX_DELIVERY_KM } from "@/lib/delivery"
-import { estimateRoadDistance, formatDistance } from "@/lib/distance"
+import { estimateRoadDistance } from "@/lib/distance"
 import { ROUTES } from "@/routes/routes"
 import { useFormContext, useWatch } from "react-hook-form"
 import { useNavigate } from "react-router-dom"
+
+// ${
+//       distance
+//         ? `\nDistance: ~${formatDistance(distance)} by road (estimated)`
+//         : ""
 
 type OrderSummaryProps = {
   cart: CartItem[]
