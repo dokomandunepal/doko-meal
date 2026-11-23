@@ -92,13 +92,7 @@
           "isPopular": false,
           "prepTime": "25 min",
           "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Cabbage",
-            "Carrot",
-            "Sesame",
-            "Tomato",
-            "Timur"
-          ],
+          "keyIngredients": ["Cabbage", "Carrot", "Sesame", "Tomato", "Timur"],
           "rating": 4.6
         },
         {
@@ -589,7 +583,7 @@
           "id": 503,
           "name": "Buff Fried Rice",
           "price": 299,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSznOLjwwqgcvakljrNmq2guWDsP2yJrWsic0KptCxhrQXMO4TwNmkfbQc&s=10",
+          "image": "https://kathmandumomo.com.au/wp-content/uploads/2020/03/hf_20260205_101358_afb332b8-cb93-40ed-9f0e-411e239b551d.webp",
           "description": "Wok-fried rice with seasoned buff, crisp vegetables and soy sauce.",
           "isVeg": false,
           "isPopular": false,
@@ -629,7 +623,7 @@
           "id": 505,
           "name": "Mixed Fried Rice",
           "price": 390,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Fried_rice_with_chicken_and_egg.jpg/960px-Fried_rice_with_chicken_and_egg.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbXkJY6iFgCHMR92NpiEj_h_sOtHjXbpiB8lvX9C1fgbJ3VwuneMonBWN&s=10",
           "description": "A hearty combination of chicken, egg and vegetables with perfectly stir-fried rice.",
           "isVeg": false,
           "isPopular": true,
@@ -678,7 +672,7 @@
           "id": 601,
           "name": "Buff Sukuti",
           "price": 399,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sukuti.jpg/960px-Sukuti.jpg",
+          "image": "https://bhojmandu.com/storage/product/2024-08-11-66b8545c07878.png",
           "description": "Traditional Nepali sun-dried buff meat, pan-tossed with onions, spices and Timur.",
           "isVeg": false,
           "isPopular": true,
@@ -942,9 +936,9 @@
       "items": [
         {
           "id": 901,
-          "name": "Chicken Drumsticks",
+          "name": "Chicken Drumsticks (3 Piece)",
           "price": 290,
-          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "image": "https://ohthatsgood.com/wp-content/uploads/2022/08/Chicken-Lollipop-1200x1200-1.jpg",
           "description": "Juicy fried drumsticks seasoned with herbs and spices, served with dipping sauce.",
           "isVeg": false,
           "isPopular": true,
@@ -962,9 +956,9 @@
         },
         {
           "id": 902,
-          "name": "Chicken Wings Fried",
+          "name": "Chicken Wings Fried (3 Piece)",
           "price": 290,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/960px-Buffalo_wings-01.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwa8z65rChPd_psDFiX6FbNRmlyHGGyDe4G5fDPDWH4HTm7bWzwPDS1jY&s=10",
           "description": "Golden fried chicken wings coated with house seasoning and served hot.",
           "isVeg": false,
           "isPopular": true,
@@ -982,9 +976,9 @@
         },
         {
           "id": 903,
-          "name": "Chicken Hot Wings",
+          "name": "Chicken Hot Wings (3 Piece)",
           "price": 350,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/960px-Buffalo_wings-01.jpg",
+          "image": "https://omnivorescookbook.com/wp-content/uploads/2026/07/170318_Korean-Fried-Chicken-Wings_550.jpg",
           "description": "Spicy chicken wings glazed with fiery hot sauce.",
           "isVeg": false,
           "isPopular": true,
@@ -1002,7 +996,7 @@
         },
         {
           "id": 904,
-          "name": "Chicken Lollipop",
+          "name": "Chicken Lollipop (3 Piece)",
           "price": 50,
           "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chicken_lollipop.jpg/960px-Chicken_lollipop.jpg",
           "description": "Crispy chicken lollipops marinated with signature spices, served with spicy dip.",
@@ -1082,7 +1076,7 @@
           "id": 1101,
           "name": "Paneer Biryani with Raita",
           "price": 650,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Paneer_Biriyani_02.jpg/960px-Paneer_Biriyani_02.jpg",
+          "image": "https://ministryofcurry.com/wp-content/uploads/2023/10/paneer-biryani_-9.jpg",
           "description": "Fragrant basmati rice layered with marinated paneer and whole spices. Served with cooling raita.",
           "isVeg": true,
           "isPopular": true,
@@ -1180,7 +1174,7 @@
           "id": 1301,
           "name": "Chicken Curry with Plain Rice",
           "price": 799,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/1280px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+          "image": "https://www.foodiaq.com/wp-content/uploads/2024/02/chicken-curry-and-rice-scaled.jpg",
           "description": "Home-style Nepali chicken curry slow-cooked with aromatic spices. Served with plain rice.",
           "isVeg": false,
           "isPopular": true,
@@ -1200,7 +1194,7 @@
           "id": 1302,
           "name": "Buff Curry with Plain Rice",
           "price": 699,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/1280px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ4PzM71e54vPk23BYeMn9Z3fsq1kfovLwnU33UM5SoXf46jf4oTP3KE9D&s=10",
           "description": "Hearty buff curry simmered with traditional spices. Served with plain rice.",
           "isVeg": false,
           "isPopular": true,
@@ -1226,11 +1220,7 @@
           "isPopular": false,
           "prepTime": "8 min",
           "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Whole wheat flour",
-            "Water",
-            "Salt"
-          ],
+          "keyIngredients": ["Whole wheat flour", "Water", "Salt"],
           "rating": 4.5
         },
         {
@@ -1243,11 +1233,7 @@
           "isPopular": false,
           "prepTime": "8 min",
           "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Whole wheat flour",
-            "Butter",
-            "Salt"
-          ],
+          "keyIngredients": ["Whole wheat flour", "Butter", "Salt"],
           "rating": 4.6
         },
         {
@@ -1274,7 +1260,7 @@
           "id": 1306,
           "name": "Butter Paneer Masala",
           "price": 399,
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/1280px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1finD-uJSjY699FYWwN4eVAJ5fYWzS1efBT4BcKPNmFx5KaClBA6lZVb&s=10",
           "description": "Soft paneer cubes in a velvety, mildly spiced tomato-butter gravy.",
           "isVeg": true,
           "isPopular": true,
@@ -1349,12 +1335,7 @@
           "isPopular": true,
           "prepTime": "12 min",
           "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Potato",
-            "Salt",
-            "Cooking oil",
-            "Ketchup"
-          ],
+          "keyIngredients": ["Potato", "Salt", "Cooking oil", "Ketchup"],
           "rating": 4.8
         }
       ]
